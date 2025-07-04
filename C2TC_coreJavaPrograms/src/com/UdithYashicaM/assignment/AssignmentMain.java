@@ -4,17 +4,17 @@ import com.UdithYashicaM.assignment.Utilities.EmployeeUtilities;
 
 public class AssignmentMain {
 	 public static void main(String[] args) {
-		 Manager mgr = new Manager("Yash", 55 , 100000, 5);
+		 Manager mgr = new Manager("Yashi", 55 , 100000, 5);
 	        Developer dev = new Developer("Jai", 20, 85000, "Java");
 
 	        System.out.println("Manager Details:");
-	        EmployeeUtilities.printEmployeeDetails(mgr);
-	        System.out.println("Team Size: " + mgr.getTeamSize());
+	        EmployeeUtilities.printshowDetails(mgr);
+	        System.out.println("Team Sizes: " + mgr.getTeamSizes());
 	        System.out.println("Annual Salary: " + EmployeeUtilities.calculateAnnualSalary(mgr));
 
 	        System.out.println("\nDeveloper Details:");
-	        EmployeeUtilities.printEmployeeDetails(dev);
-	        System.out.println("Programming Language: " + dev.getProgrammingLanguage());
+	        EmployeeUtilities.printshowDetails(dev);
+	        System.out.println("Programming Languages: " + dev.getProgrammingLanguages());
 	        System.out.println("Annual Salary: " + EmployeeUtilities.calculateAnnualSalary(dev));
 	    }
 }

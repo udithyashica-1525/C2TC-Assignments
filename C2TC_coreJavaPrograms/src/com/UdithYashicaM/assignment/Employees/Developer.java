@@ -1,13 +1,13 @@
 package com.UdithYashicaM.assignment.Employees;
 
 public class Developer extends Employee {
-		    private String programmingLanguage;
+		    private String programmingLanguages;
 
-		    public Developer(String name, int employeeId, double salary, String programmingLanguage) {
+		    public Developer(String name, int employeeId, double salary, String programmingLanguages) {
 		        super(name, employeeId, salary);
-		        this.programmingLanguage = programmingLanguage;
+		        this.programmingLanguages = programmingLanguages;
 		    }
 
-		    public String getProgrammingLanguage() { return programmingLanguage; }
-		    public void setProgrammingLanguage(String programmingLanguage) { this.programmingLanguage = programmingLanguage; }
+		    public String getProgrammingLanguages() { return programmingLanguages; }
+		    public void setProgrammingLanguages(String programmingLanguages) { this.programmingLanguages = programmingLanguages; }
 }

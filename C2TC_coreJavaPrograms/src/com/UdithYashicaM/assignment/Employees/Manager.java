@@ -2,14 +2,14 @@ package com.UdithYashicaM.assignment.Employees;
 
 public class Manager 
 	extends Employee {
-	    private int teamSize;
+	    private int teamSizes;
 
-	    public Manager(String name, int employeeId, double salary, int teamSize) {
+	    public Manager(String name, int employeeId, double salary, int teamSizes) {
 	        super(name, employeeId, salary);
-	        this.teamSize = teamSize;
+	        this.teamSizes = teamSizes;
 	    }
 
-	    public int getTeamSize() { return teamSize; }
-	    public void setTeamSize(int teamSize) { this.teamSize = teamSize; }
+	    public int getTeamSizes() { return teamSizes; }
+	    public void setTeamSizes(int teamSizes) { this.teamSizes = teamSizes; }
 	
 }
