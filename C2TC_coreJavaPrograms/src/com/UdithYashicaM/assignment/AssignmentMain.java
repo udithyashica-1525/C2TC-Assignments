@@ -7,8 +7,8 @@ import com.UdithYashicaM.assignment.Utilities.EmployeeUtilities;
  */
 public class AssignmentMain {
     public static void main(String[] args) {
-        Manager mgr = new Manager("Alice", 101, 50000, 5);
-        Developer dev = new Developer("Bob", 102, 45000, "Java");
+        Manager mgr = new Manager("Yashi", 55, 100000, 5);
+        Developer dev = new Developer("Akash", 20, 85000, "Java");
 
         System.out.println("Manager Details:");
         EmployeeUtilities.printEmployeeDetails(mgr);
